@@ -102,19 +102,21 @@
       </div>
       <div class="carousel-inner" style="height: 70vh;">
         <div class="carousel-item active" style="height: 100%;">
-          <div class="" ><img src="https://hodinkee.imgix.net/uploads/images/d3671b33-c5ec-469b-9d5b-9d11af7e5df1/aquastar-benthos-ii-2025-hero.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&fit=crop&ch=Width%2CDPR%2CSave-Data&alt=&ar=16%3A9&w=1200" class="d-block  w-100" style="height: 100dvh;" alt="..." ></div>
+          <div class="" >
+            <img src="https://hodinkee.imgix.net/uploads/images/d3671b33-c5ec-469b-9d5b-9d11af7e5df1/aquastar-benthos-ii-2025-hero.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&fit=crop&ch=Width%2CDPR%2CSave-Data&alt=&ar=16%3A9&w=1200" class="d-block img-fluid w-100" style="height: 100dvh;" alt="..." >
+          </div>
           <div class="carousel-caption d-none d-md-block" style="height: 70vh; text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.822);">
             <h1>A Legacy of Craftsmanship, more Than Time – A story</h1>
           </div>
         </div>
         <div class="carousel-item active" style="height: 100%;">
-          <div class="" ><img src="https://hodinkee.imgix.net/uploads/images/3ad4f7f2-1b60-4464-80d4-8beceedc1452/aquastar-benthos-ii-2025-2.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&fit=crop&ch=Width%2CDPR%2CSave-Data&alt=&w=820" class="d-block  w-100" style="height: 100dvh;" alt="..." ></div>
+          <div class="" ><img src="https://hodinkee.imgix.net/uploads/images/3ad4f7f2-1b60-4464-80d4-8beceedc1452/aquastar-benthos-ii-2025-2.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&fit=crop&ch=Width%2CDPR%2CSave-Data&alt=&w=820" class="d-block img-fluid w-100" style="height: 100dvh;" alt="..." ></div>
           <div class="carousel-caption d-none d-md-block" style="height: 70vh; text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.822);">
             <h1>For the Moments that Matter.</h1>
           </div>
         </div>
         <div class="carousel-item active" style="height: 100%;">
-          <div class="" ><img src="https://hodinkee.imgix.net/uploads/images/9680fa42-1e57-46cf-813c-694efea9154d/aquastar-benthos-ii-2025-1.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&fit=crop&ch=Width%2CDPR%2CSave-Data&alt=&w=820" class="d-block  w-100" style="height: 100dvh;" alt="..." ></div>
+          <div class="" ><img src="https://hodinkee.imgix.net/uploads/images/9680fa42-1e57-46cf-813c-694efea9154d/aquastar-benthos-ii-2025-1.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&fit=crop&ch=Width%2CDPR%2CSave-Data&alt=&w=820" class="d-block img-fluid w-100" style="height: 100dvh;" alt="..." ></div>
           <div class="carousel-caption d-none d-md-block" style="height: 70vh; text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.822);">
             <h1>Crafting Time, Perfecting Moments.</h1>
           </div>
@@ -268,12 +270,14 @@
     </div>
   </footer>
 
-  <button id="back-to-top" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;"  class="bg-blue-600 text-white p-3 rounded-full shadow-lg ">⬆️</button>
+  <div id="back-to-top" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;"  class="bg-primary text-white p-3 rounded-5 shadow-lg">
+    <img style="width: 20px;" src="https://img.icons8.com/?size=100&id=39805&format=png&color=FFFFFF" alt="">
+  </div>
 
   <script>
     const backToTop = document.getElementById('back-to-top');
     window.addEventListener('scroll', ()=>{
-      if(window.scrollY > 100){
+      if(window.scrollY > 300){
         backToTop.style.display = 'block'
       }else{
         backToTop.style.display = 'none'
